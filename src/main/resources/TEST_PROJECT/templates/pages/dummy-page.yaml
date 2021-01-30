@@ -1,0 +1,10 @@
+templateScript: /TEST_PROJECT/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: TEST_PROJECT:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: TEST_PROJECT:components/dummy-component

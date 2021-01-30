@@ -1,0 +1,2 @@
+templateScript: /TEST_PROJECT/templates/components/dummy-component.ftl
+renderType: freemarker
