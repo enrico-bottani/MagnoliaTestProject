@@ -14,8 +14,9 @@ public class TestProject implements ModuleLifecycle {
     /* you can optionally implement info.magnolia.module.ModuleLifecycle */
     @Override
     public void start(ModuleLifecycleContext moduleLifecycleContext) {
-        var change = "change4";
+        var change = "change - live reload";
         System.out.println("Module started! " + change);
+        System.out.println("OK! " + change);
     }
 
     @Override
